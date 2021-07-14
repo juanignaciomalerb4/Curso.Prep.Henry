@@ -1,0 +1,10 @@
+For:
+    Sirve para crear un búcle que sea claro visualmente con todas sus partes en el mismo lugar, 
+    variable a modificar, condición y iteración. Este búcle se va a repetir hasta que la condición ya no
+    se cumpla (de false).
+
+Operadores lógicos:
+
+Los operadores && y || :
+    Se usan para comparar valores lógicos (normalmente booleanos) para devolver
+    un valor (generalmente booleano).
