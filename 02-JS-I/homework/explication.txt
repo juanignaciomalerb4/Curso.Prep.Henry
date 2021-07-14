@@ -1,0 +1,44 @@
+
+Variables:
+    Las variables nos sirven para almacenar un valor que tenga como referencia un nombre en específico.
+Así si más adelante queremos utilizar ese valor solo tenemos que llamar a la variable.
+
+Strings:
+    Las strings son un conjunto de carácteres encerrados entre comillas. Por ej.: "Hola", "1".
+Son un tipo de dato que se puede almacenar en por ej. una variable.
+
+Funciones:
+    Las funciones se declaran siempre con la palabra clave 'function' seguido del nombre de la función y unos
+paréntesis '()' y lo que queremos que ejecute la función dentro de unos corchetes '{}'. 
+Ej.:
+    function saludar(){
+        lo que se ejecuta si se llama a la función
+    }
+A su vez las funciones pueden tener argumentos que van dentro del paréntesis para otorgarle un valor con el
+que trabajar cuando se llame a la función. Ej.: 
+                    function sumar(a, b) {
+                        console.log(a + b);
+                        }
+                    sumar(5, 7);
+Llamar a la función es escribir su nombre seguido de los paréntesis y, si tiene parámetros (lo que está entre
+paréntesis cuando se declaró), brindarle argumentos con los que trabajar una vez llamada.
+
+Return hace que la función nos devuelva un valor cuando la llamemos y además sirve como punto de quiebre,
+una vez que llega a return todo lo que le sigué después dentro de la función no será ejecutado.
+ Si no usamos return la función nos devuelve undefined y no un valor en si propio de la función.
+ 
+Declaraciones if :
+Nos sirven para ejecutar un bloque de código si es que se cumple una condición. 
+Ej. if (se cumple lo que va acá (da verdadero)) {
+    se ejecuta esto.
+}
+Si no se cumple la condición el programa sigue con las lineas de código que le siguen.
+
+Valores booleanos:
+
+Los valores booleanos son valores lógicos, nos dicen si algo es verdadero o falso y depende de alguno de 
+estos dos resultados nos sirven para saber si algo se cumple o no.
+Ej.  1 > 0 // true
+     3 > 5 // false
+
+
